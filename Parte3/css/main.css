@@ -1,0 +1,12 @@
+/* Pon tu código css aqui */
+.container {
+    outline: 2px red solid;    
+}
+.container div {
+    width: 100px;
+    height: 50px; 
+    float: right;
+}
+.container div:nth-child(1){background: yellow}
+.container div:nth-child(2){background: blue}
+.container div:nth-child(3){background: pink}
